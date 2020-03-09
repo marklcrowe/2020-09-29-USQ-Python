@@ -14,7 +14,7 @@ instructor: ["Francis Gacenga", "Adam Sparks", "Richard Young"] # boxed, comma-s
 helper: ["Anita Frederiks", "Michael Lane", "Mathieu Clerte", "Dag Evensberget", "Paul Melloy"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["eResearchServices@usq.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "98945622019"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -128,6 +128,16 @@ This block displays the date and links to Google Calendar.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
+
+{% comment %}
+FEES
+
+{% endcomment %}
+
+<p id="fees">
+  <strong>Fees:</strong> A $20 fee applies for registration for this workshop to cover the cost of catering.  
+</p>
 
 {% comment %}
 SPECIAL REQUIREMENTS
